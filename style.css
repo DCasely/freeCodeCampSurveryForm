@@ -1,0 +1,63 @@
+/* * {
+  border: 0.1px solid black;
+} */
+
+body {
+  background-image: url(./images/pexels-photo-2096578.jpeg);
+}
+
+main {
+  color: white;
+}
+
+#header {
+  /* border: 2px solid yellow; */
+  background: rgba(0, 0, 0, 0.808);
+  text-align: center;
+  width: 50%;
+  margin: 0 auto;
+  padding: 1% 3%;
+}
+
+form {
+  /* border: 2px solid blue; */
+  background: rgba(0, 0, 0, 0.808);
+  width: 50%;
+  margin: 0 auto;
+  padding: 3% 3%;
+}
+
+#name-form,
+#email-form,
+#age,
+#dropdown,
+#comments-suggestions {
+  /* border: 2px solid red; */
+  display: flex;
+  flex-direction: column;
+}
+
+/* #radio-buttons {
+  border: 5px solid green;
+}
+
+#checkboxes {
+  border: 2px solid blue;
+} */
+
+.description {
+  margin-top: 0;
+  font-style: italic;
+}
+
+main {
+  /* background: rgba(0, 0, 0, 0.808); */
+  padding: 1% 5%;
+  margin: 5%;
+  /* color: white; */
+}
+
+label {
+  display: block;
+  /* margin: auto; */
+}
